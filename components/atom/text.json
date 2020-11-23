@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_atom_texts",
+  "info": {
+    "name": "text",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "lead",
+        "heading",
+        "tagline",
+        "misc"
+      ],
+      "default": "heading",
+      "required": true
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

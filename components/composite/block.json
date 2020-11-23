@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_composite_blocks",
+  "info": {
+    "name": "block",
+    "icon": "stream"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atom.text"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atom.content"
+    }
+  }
+}

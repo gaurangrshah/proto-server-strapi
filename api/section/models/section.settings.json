@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sections",
+  "info": {
+    "name": "section"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "pages": {
+      "collection": "page",
+      "via": "sections",
+      "dominant": true
+    },
+    "block": {
+      "model": "block",
+      "via": "sections"
+    }
+  }
+}

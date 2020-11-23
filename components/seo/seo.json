@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_seo_seos",
+  "info": {
+    "name": "seo",
+    "icon": "info"
+  },
+  "options": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string",
+      "default": "Platinum Property Services",
+      "required": true
+    },
+    "keywords": {
+      "type": "json",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "default": "Platinum Property Services is a one-stop source for your home and building needs including cleaning, painting, home improvements, and building maintenance.",
+      "required": true
+    },
+    "altText": {
+      "type": "string",
+      "default": "property services",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "default": "platinum-property-services"
+    }
+  }
+}
